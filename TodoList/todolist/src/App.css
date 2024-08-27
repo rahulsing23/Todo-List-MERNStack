@@ -1,0 +1,55 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_form input{
+  width:500px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.create_form button{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 70px;
+  border: 1px solid black;
+  font-size:  20px;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 600px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+.line_through{
+  text-decoration: line-through;
+}
